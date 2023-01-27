@@ -1,20 +1,22 @@
 #pip install socket
 #pip install art
-#pip install colorama
+#pip install getpass
+#bunu ben yaptım veben bir türküm mamungame
 import time
-import colorama 
-from colorama import Fore
 import socket
 from art import tprint
+from getpass import getpass
+getpass("")
 tprint("hendeks")
 
 print("""
 [1] port checker
 [2]port scanner 
-[3]exit""")
+[3]Which tool should come???
+[4]exit""")
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 option=int(input("option>>> "))
-if (option==3):
+if (option==4):
     print("exit")
     exit
 elif(option==1):
@@ -41,6 +43,16 @@ elif(option==2):
         except:
             print("[-] port close>>> ",str(porT))
             time.sleep(14)
+elif (option==3):
+    print("cupp")
+    print(" Which tool should come???              ")
+    print("  \            ")
+    print("   \         ")
+    print("    ,__,     ")        
+    print("    (oo)____ ")     
+    print("    (__)    )\\")
+    print("       ||--|| *")
+    time.sleep(14)
 else:
     print("[-] Error")
     time.sleep(5)
