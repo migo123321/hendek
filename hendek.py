@@ -2,14 +2,18 @@
 #pip install art
 #pip install getpass
 #bunu ben yaptım veben bir türküm mamungame
+#pip install shutil
+import shutil
+
 import time
 import socket
 from art import tprint
 from getpass import getpass
 getpass("")
-tprint("hendeks")
+tprint("hendek")
 
 print("""
+[0]error
 [1] port checker
 [2]port scanner 
 [3]Which tool should come???
@@ -52,7 +56,10 @@ elif (option==3):
     print("    (oo)____ ")     
     print("    (__)    )\\")
     print("       ||--|| *")
+    
+    print("shutil...")
     time.sleep(14)
+      
 else:
     print("[-] Error")
     time.sleep(5)
